@@ -1,12 +1,12 @@
 {
-  "name": "three-pixel-font",
+  "name": "three-test-supermodule",
   "version": "0.0.5",
   "license": "MIT",
   "private": false,
   "type": "module",
   "main": "lib/index.js",
   "types": "types/index.d.ts",
-  "description": "A pixel font renderer for three.js",
+  "description": "A test super-module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bunnybones1/three-pixel-font.git"
@@ -36,6 +36,7 @@
     "performance-polyfill": "^0.0.3",
     "stream": "^0.0.2",
     "stream-browserify": "^3.0.0",
+    "three-pixel-font": "bunnybones1/three-pixel-font#450faabbe7d7236e08a99761806f725bf06cbdaf",
     "util": "^0.12.4"
   },
   "peerDependencies": {

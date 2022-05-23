@@ -1,11 +1,5 @@
-import PixelFontFace from './PixelFontFace';
-import PixelTextMesh from './PixelTextMesh';
+import Foo from './Foo';
 declare const _default: {
-    PixelTextMesh: typeof PixelTextMesh;
-    pixelTextSettings: {
-        generic: import("./PixelTextSettings").PixelTextSettings;
-        title: import("./PixelTextSettings").PixelTextSettings;
-    };
-    PixelFontFace: typeof PixelFontFace;
+    Foo: typeof Foo;
 };
 export default _default;

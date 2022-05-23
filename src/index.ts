@@ -1,10 +1,6 @@
 
-import PixelFontFace from './PixelFontFace'
-import PixelTextMesh from './PixelTextMesh'
-import { pixelTextSettings } from './PixelTextSettings'
+import Foo from './Foo'
 
 export default {
-  PixelTextMesh,
-  pixelTextSettings,
-  PixelFontFace
+  Foo
 }

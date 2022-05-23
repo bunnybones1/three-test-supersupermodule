@@ -3358,6 +3358,16 @@ three-bmfont-text@^3.0.1:
     object-assign "^4.0.1"
     quad-indices "^2.0.1"
 
+three-pixel-font@bunnybones1/three-pixel-font#450faabbe7d7236e08a99761806f725bf06cbdaf:
+  version "0.0.5"
+  resolved "https://codeload.github.com/bunnybones1/three-pixel-font/tar.gz/450faabbe7d7236e08a99761806f725bf06cbdaf"
+  dependencies:
+    buffer "^6.0.3"
+    performance-polyfill "^0.0.3"
+    stream "^0.0.2"
+    stream-browserify "^3.0.0"
+    util "^0.12.4"
+
 three@^0.134.0:
   version "0.134.0"
   resolved "https://registry.yarnpkg.com/three/-/three-0.134.0.tgz#d7ad4d85d050da0861bf39749b06ddfb5f17157f"

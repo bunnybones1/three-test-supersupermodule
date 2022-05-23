@@ -33,7 +33,8 @@ esbuild
   .catch(() => process.exit(1));
 
 esbuild.serve({ 
-  servedir: 'test-www'
+  servedir: 'test-www',
+  port: 8002
 }, {}).then(() => {
   createServer((req, res) => {
     const { url, method, headers } = req;
@@ -48,7 +49,7 @@ esbuild.serve({
     const path = ~url.split("/").pop().indexOf(".") ? url : `/index.html`; //for PWA with router
     req.pipe(
       request(
-        { hostname: "0.0.0.0", port: 8000, path, method, headers },
+        { hostname: "0.0.0.0", port: 8002, path, method, headers },
         (prxRes) => {
           if (url === "/index.js") {
 
@@ -72,7 +73,7 @@ esbuild.serve({
       ),
       { end: true }
     );
-  }).listen(3000);
+  }).listen(3002);
 
   setTimeout(() => {
     const op = {
@@ -82,6 +83,6 @@ esbuild.serve({
     };
     const ptf = process.platform;
     if (clients.length === 0)
-      spawn(op[ptf][0], [...[op[ptf].slice(1)], `http://localhost:3000`]);
+      spawn(op[ptf][0], [...[op[ptf].slice(1)], `http://localhost:3002`]);
   }, 1000); //open the default browser only if it is not opened yet
 });
