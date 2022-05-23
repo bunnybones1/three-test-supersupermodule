@@ -36,11 +36,11 @@
     "performance-polyfill": "^0.0.3",
     "stream": "^0.0.2",
     "stream-browserify": "^3.0.0",
-    "three-pixel-font": "bunnybones1/three-pixel-font#450faabbe7d7236e08a99761806f725bf06cbdaf",
     "util": "^0.12.4"
   },
   "peerDependencies": {
-    "three": "^0.134.0"
+    "three": "^0.134.0",
+    "three-pixel-font": "^0.0.6"
   },
   "devDependencies": {
     "@types/node": "^17.0.31",
@@ -60,6 +60,7 @@
     "serve": "^12.0.0",
     "source-map-loader": "^3.0.0",
     "three": "^0.134.0",
+    "three-pixel-font": "^0.0.6",
     "three-bmfont-text": "^3.0.1",
     "threejs-camera-controller-first-person-desktop": "^5.0.1",
     "ts-loader": "^9.2.5",

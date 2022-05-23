@@ -20,18 +20,12 @@ export default class TestPixelTextScene extends BaseTestScene {
     if (getUrlFlag('fpsCam')) {
       fps.toggle(true)
     }
-
-    // const s = 1
-
-    // const hello = new PixelTextMesh(' ABC \n 010 \n ntz \n "#% \n { } \n0ANan')
-    // // const hello = new PixelTextMesh('This is the beginning!\nHello World!\nHello World!\nHello World!\nHello World!')
-    // hello.scale.multiplyScalar(s)
-    // this.scene.add(hello)
-
+    
     const init = async () => {
       const book = new lib.Foo()
       book.position.set(-0.125, 0, 0)
       this.scene.add(book)
+      book.scale.set(0.1, 0.1, 0.1)
     }
     init()
   }

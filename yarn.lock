@@ -3358,9 +3358,10 @@ three-bmfont-text@^3.0.1:
     object-assign "^4.0.1"
     quad-indices "^2.0.1"
 
-three-pixel-font@bunnybones1/three-pixel-font#450faabbe7d7236e08a99761806f725bf06cbdaf:
-  version "0.0.5"
-  resolved "https://codeload.github.com/bunnybones1/three-pixel-font/tar.gz/450faabbe7d7236e08a99761806f725bf06cbdaf"
+three-pixel-font@^0.0.6:
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/three-pixel-font/-/three-pixel-font-0.0.6.tgz#6fdb0bb10d78b8f849ba5835542791474d063a5a"
+  integrity sha512-BfxJEJklX0Zkaw6X3AskWF4LQVPbGnoiBQo+Z5Xut06GMXtFAlc4FSVtILV+Bz8dv3dYIZz19oPzoNm1eGMj8A==
   dependencies:
     buffer "^6.0.3"
     performance-polyfill "^0.0.3"
