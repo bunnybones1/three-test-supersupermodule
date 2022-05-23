@@ -4,6 +4,7 @@ import { FPSControls } from '~/utils/fpsControls'
 import { getUrlFlag } from '~/utils/location'
 
 import { BaseTestScene } from './BaseTestScene'
+import libFoo from 'three-super-module'
 
 function url(name: string, ext: string) {
   return `books/${name}.${ext}`
@@ -22,10 +23,14 @@ export default class TestPixelTextScene extends BaseTestScene {
     }
     
     const init = async () => {
-      const book = new lib.Foo()
+      const test2 = new libFoo.Foo()
+      test2.position.set(-0.125, 0, 0)
+      this.scene.add(test2)
+      test2.scale.set(0.1, 0.1, 0.1)
+      const book = new lib.Bar()
       book.position.set(-0.125, 0, 0)
       this.scene.add(book)
-      book.scale.set(0.1, 0.1, 0.1)
+      book.scale.set(0.04, 0.04, 0.04)
     }
     init()
   }

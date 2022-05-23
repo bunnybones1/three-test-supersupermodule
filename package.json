@@ -1,12 +1,12 @@
 {
-  "name": "three-test-supermodule",
+  "name": "three-test-supersupermodule",
   "version": "0.0.5",
   "license": "MIT",
   "private": false,
   "type": "module",
   "main": "lib/index.js",
   "types": "types/index.d.ts",
-  "description": "A test super-module",
+  "description": "A test super-super-module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bunnybones1/three-pixel-font.git"
@@ -40,7 +40,8 @@
   },
   "peerDependencies": {
     "three": "^0.134.0",
-    "three-pixel-font": "^0.0.6"
+    "three-pixel-font": "^0.0.6",
+    "three-super-module": "bunnybones1/three-test-supermodule#ef54e7a54e174aab05ff376183de285b138be25c"
   },
   "devDependencies": {
     "@types/node": "^17.0.31",
@@ -62,6 +63,7 @@
     "three": "^0.134.0",
     "three-pixel-font": "^0.0.6",
     "three-bmfont-text": "^3.0.1",
+    "three-super-module": "bunnybones1/three-test-supermodule#ef54e7a54e174aab05ff376183de285b138be25c",
     "threejs-camera-controller-first-person-desktop": "^5.0.1",
     "ts-loader": "^9.2.5",
     "ts-node": "^10.2.1",

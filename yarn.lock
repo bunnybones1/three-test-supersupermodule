@@ -3369,6 +3369,16 @@ three-pixel-font@^0.0.6:
     stream-browserify "^3.0.0"
     util "^0.12.4"
 
+three-super-module@bunnybones1/three-test-supermodule#ef54e7a54e174aab05ff376183de285b138be25c:
+  version "0.0.5"
+  resolved "https://codeload.github.com/bunnybones1/three-test-supermodule/tar.gz/ef54e7a54e174aab05ff376183de285b138be25c"
+  dependencies:
+    buffer "^6.0.3"
+    performance-polyfill "^0.0.3"
+    stream "^0.0.2"
+    stream-browserify "^3.0.0"
+    util "^0.12.4"
+
 three@^0.134.0:
   version "0.134.0"
   resolved "https://registry.yarnpkg.com/three/-/three-0.134.0.tgz#d7ad4d85d050da0861bf39749b06ddfb5f17157f"
