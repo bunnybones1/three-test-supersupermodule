@@ -41,37 +41,27 @@
   "peerDependencies": {
     "three": "^0.134.0",
     "three-pixel-font": "^0.0.6",
-    "three-super-module": "bunnybones1/three-test-supermodule#ef54e7a54e174aab05ff376183de285b138be25c"
+    "three-super-module": "bunnybones1/three-test-supermodule#9e3da701156df54db0dac4e0e60ef13bc1282d09"
   },
   "devDependencies": {
     "@types/node": "^17.0.31",
     "@types/three": "^0.134.0",
     "@typescript-eslint/eslint-plugin": "^4.31.0",
     "@typescript-eslint/parser": "^4.31.0",
-    "dotenv": "^10.0.0",
     "esbuild": "^0.14.38",
+    "esbuild-hotserve": "^0.0.4",
     "esbuild-node-externals": "^1.4.1",
     "esbuild-plugin-glsl": "^1.1.0",
     "eslint": "^7.32.0",
-    "glslify-import-loader": "^0.1.2",
+    "get-port": "^6.1.2",
     "glslify-loader": "^2.0.0",
     "prettier": "^2.3.2",
     "prettier-check": "^2.0.0",
-    "raw-loader": "^4.0.2",
-    "serve": "^12.0.0",
-    "source-map-loader": "^3.0.0",
     "three": "^0.134.0",
-    "three-pixel-font": "^0.0.6",
-    "three-bmfont-text": "^3.0.1",
-    "three-super-module": "bunnybones1/three-test-supermodule#ef54e7a54e174aab05ff376183de285b138be25c",
+    "three-pixel-font": "^0.0.9",
+    "three-super-module": "bunnybones1/three-test-supermodule#9e3da701156df54db0dac4e0e60ef13bc1282d09",
     "threejs-camera-controller-first-person-desktop": "^5.0.1",
-    "ts-loader": "^9.2.5",
-    "ts-node": "^10.2.1",
-    "ts-node-dev": "^1.1.6",
-    "tsconfig-paths": "^4.0.0",
-    "tscpaths": "^0.0.9",
-    "typescript": "4.4.2",
-    "typescript-styled-plugin": "^0.18.0"
+    "typescript": "4.4.2"
   },
   "bugs": {
     "url": "https://github.com/bunnybones1/three-pixel-font/issues"

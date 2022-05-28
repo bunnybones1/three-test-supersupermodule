@@ -1,5 +1,5 @@
-import Foo from './Foo';
+import Bar from './Bar';
 declare const _default: {
-    Foo: typeof Foo;
+    Bar: typeof Bar;
 };
 export default _default;

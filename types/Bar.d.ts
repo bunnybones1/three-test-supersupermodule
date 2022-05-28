@@ -1,4 +1,4 @@
 import pixelFont from 'three-pixel-font';
-export default class Foo extends pixelFont.PixelTextMesh {
+export default class Bar extends pixelFont.PixelTextMesh {
     constructor();
 }
